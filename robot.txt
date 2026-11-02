@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://nyabam6-ai.github.io/ST10505554_Minenhle-s-kitchen/sitemap.xml

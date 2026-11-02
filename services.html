@@ -1,61 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"><title>Menu - Minenhle's Kitchen</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our delicious menu items including Pap and Wors, Beef Stew, and Chicken Stew.">
+    <title>Menu - Minenhle's Kitchen</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header>
-    <div class="container">
-        <nav>
-            <h1>🍲 Minenhle's Kitchen</h1>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Menu</a></li>
-                <li><a href="enquiry.html">Order</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
+    <header>
+        <div class="container">
+            <nav>
+                <h1>Minenhle's Kitchen</h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Menu</a></li>
+                    <li><a href="enquiry.html">Order</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <h3>Our Menu</h3>
+        <div class="gallery">
+            <div class="menu-item">
+                <picture>
+                    <source media="(max-width: 600px)" srcset="img/pap-and-wors.jpg">
+                    <source media="(min-width: 601px)" srcset="img/pap-and-wors.jpg">
+                    <img src="img/pap-and-wors.jpg" alt="Pap and Wors" width="220" class="lightbox-trigger">
+                </picture>
+                <h4>Pap & Wors</h4>
+                <p>Traditional pap with grilled wors and tomato gravy</p>
+                <span class="price">R75</span>
+            </div>
+            <div class="menu-item">
+                <picture>
+                    <source media="(max-width: 600px)" srcset="img/beef.png">
+                    <source media="(min-width: 601px)" srcset="img/beef.png">
+                    <img src="img/beef.png" alt="Beef Stew" width="220" class="lightbox-trigger">
+                </picture>
+                <h4>Beef Stew</h4>
+                <p>Slow-cooked beef stew with vegetables</p>
+                <span class="price">R90</span>
+            </div>
+        </div>
+    </main>
+    <footer><p>&copy; 2026 Minenhle's Kitchen</p></footer>
 
-<main class="container">
-    <h3>Our Menu</h3>
-    <div class="gallery">
-        <div class="menu-item">
-    <picture>
-        <source media="(max-width: 600px)" srcset="img/pap-and-wors.jpg">
-        <source media="(min-width: 601px)" srcset="img/pap-and-wors.jpg">
-        <img src="img/pap-and-wors.jpg" alt="Pap and Wors" width="220">
-    </picture>
-    <h4>Pap & Wors</h4>
-    <p>Traditional pap with grilled wors and tomato gravy</p>
-    <span class="price">R75</span>
-</div>
-       <div class="menu-item">
-    <picture>
-        <source media="(max-width: 600px)" srcset="img/beef.png">
-        <source media="(min-width: 601px)" srcset="img/beef.png">
-        <img src="img/beef.png" alt="Beef Stew" width="220">
-    </picture>
-    <h4>Beef Stew</h4>
-    <p>Slow-cooked beef stew with vegetables</p>
-    <span class="price">R90</span>
-</div>
-        <div class="menu-item">
-    <picture>
-        <source media="(max-width: 600px)" srcset="img/beef.png">
-        <source media="(min-width: 601px)" srcset="img/beef.png">
-        <img src="img/beef.png" alt="Beef Stew" width="220">
-    </picture>
-    <h4>Beef Stew</h4>
-    <p>Slow-cooked beef stew with vegetables</p>
-    <span class="price">R90</span>
-</div>
+    <!-- Lightbox Modal -->
+    <div id="lightbox-modal" class="modal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="lightbox-img">
     </div>
-</main>
 
-<footer><p>© 2026 Minenhle's Kitchen</p></footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
