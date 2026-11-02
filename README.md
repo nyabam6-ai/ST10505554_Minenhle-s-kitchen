@@ -6,7 +6,7 @@ Organisation: Minenhle's Kitchen
 
 Student Name: Minenhle Nyaba ST10505554 
 
-Subject: Web Design - Part 1 & 2 
+Subject: Web Design - Part 1 & 2 & 3
 
 1. ORGANISATION OVERVIEW 
 
@@ -40,7 +40,7 @@ Click-through rate to WhatsApp from the website
 
 3. PROPOSED FEATURES & FUNCTIONALITY 
 
-The website will have 5 main pages.  
+The website will have 6 main pages.  
 
 Homepage: Hero banner, welcome message, and preview of popular dishes with images. 
 
@@ -51,6 +51,8 @@ Menu/Services: A gallery with pictures, descriptions and prices of all meals.
 Order/Enquiry: A form for customers to place orders with name, contact, meal choice and delivery address. 
 
 Contact: Business address, phone number, email, and operating hours. 
+
+Gallery: to show pictures of what the food looks like
 
 The website will be fully responsive for mobile and desktop. 
 
@@ -99,6 +101,8 @@ Testing: The site was tested across desktop, tablet, and mobile widths using bro
 Part 1: Initial five-page HTML structure created (index, about, services, enquiry, contact) with shared navigation and semantic layout. 
 
 Part 2: Added css/style.css with full visual styling, colour palette and typography refined from the original proposal, two responsive breakpoints, and picture/srcset markup for menu images. 
+
+Part 3: added formal Target Market and Audience Analysis breaking down primary and secondary segments across the eThekwini Metro region
 
 9. RESPONSIVE TESTING EVIDENCE 
 
